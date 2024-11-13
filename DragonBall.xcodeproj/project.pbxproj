@@ -51,9 +51,12 @@
 		13FFAE842CE529E500390255 /* DragonBall */ = {
 			isa = PBXGroup;
 			children = (
-				13FFAE852CE529E500390255 /* DragonBallApp.swift */,
-				13FFAE872CE529E500390255 /* ContentView.swift */,
-				13FFAE892CE529E600390255 /* Assets.xcassets */,
+				13FFAE942CE52ED600390255 /* App */,
+				13FFAE982CE52F1500390255 /* Model */,
+				13FFAE972CE52F1100390255 /* View */,
+				13FFAE962CE52F0C00390255 /* ViewModel */,
+				13FFAE952CE52F0300390255 /* Services */,
+				13FFAE992CE52F2300390255 /* Resource */,
 				13FFAE8B2CE529E600390255 /* Preview Content */,
 			);
 			path = DragonBall;
@@ -65,6 +68,51 @@
 				13FFAE8C2CE529E600390255 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		13FFAE942CE52ED600390255 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				13FFAE852CE529E500390255 /* DragonBallApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		13FFAE952CE52F0300390255 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		13FFAE962CE52F0C00390255 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		13FFAE972CE52F1100390255 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				13FFAE872CE529E500390255 /* ContentView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		13FFAE982CE52F1500390255 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		13FFAE992CE52F2300390255 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				13FFAE892CE529E600390255 /* Assets.xcassets */,
+			);
+			path = Resource;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
