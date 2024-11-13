@@ -7,18 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		131607D12CE55BB900284D7B /* CharacterDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 131607D02CE55BB900284D7B /* CharacterDetailView.swift */; };
+		13A0CEF32CE53CAC000C7BCF /* CharacterService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13A0CEF22CE53CAC000C7BCF /* CharacterService.swift */; };
+		13A0CEF52CE53E75000C7BCF /* CharacterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13A0CEF42CE53E75000C7BCF /* CharacterViewModel.swift */; };
 		13FFAE862CE529E500390255 /* DragonBallApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13FFAE852CE529E500390255 /* DragonBallApp.swift */; };
 		13FFAE882CE529E500390255 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13FFAE872CE529E500390255 /* ContentView.swift */; };
 		13FFAE8A2CE529E600390255 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13FFAE892CE529E600390255 /* Assets.xcassets */; };
 		13FFAE8D2CE529E600390255 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13FFAE8C2CE529E600390255 /* Preview Assets.xcassets */; };
+		13FFAE9B2CE52F6E00390255 /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13FFAE9A2CE52F6E00390255 /* Character.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		131607D02CE55BB900284D7B /* CharacterDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterDetailView.swift; sourceTree = "<group>"; };
+		13A0CEF22CE53CAC000C7BCF /* CharacterService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterService.swift; sourceTree = "<group>"; };
+		13A0CEF42CE53E75000C7BCF /* CharacterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterViewModel.swift; sourceTree = "<group>"; };
 		13FFAE822CE529E500390255 /* DragonBall.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DragonBall.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13FFAE852CE529E500390255 /* DragonBallApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragonBallApp.swift; sourceTree = "<group>"; };
 		13FFAE872CE529E500390255 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		13FFAE892CE529E600390255 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		13FFAE8C2CE529E600390255 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		13FFAE9A2CE52F6E00390255 /* Character.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +89,7 @@
 		13FFAE952CE52F0300390255 /* Services */ = {
 			isa = PBXGroup;
 			children = (
+				13A0CEF22CE53CAC000C7BCF /* CharacterService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -88,6 +97,7 @@
 		13FFAE962CE52F0C00390255 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				13A0CEF42CE53E75000C7BCF /* CharacterViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -96,6 +106,7 @@
 			isa = PBXGroup;
 			children = (
 				13FFAE872CE529E500390255 /* ContentView.swift */,
+				131607D02CE55BB900284D7B /* CharacterDetailView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -103,6 +114,7 @@
 		13FFAE982CE52F1500390255 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				13FFAE9A2CE52F6E00390255 /* Character.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -185,8 +197,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				13FFAE9B2CE52F6E00390255 /* Character.swift in Sources */,
+				13A0CEF52CE53E75000C7BCF /* CharacterViewModel.swift in Sources */,
 				13FFAE882CE529E500390255 /* ContentView.swift in Sources */,
+				131607D12CE55BB900284D7B /* CharacterDetailView.swift in Sources */,
 				13FFAE862CE529E500390255 /* DragonBallApp.swift in Sources */,
+				13A0CEF32CE53CAC000C7BCF /* CharacterService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
